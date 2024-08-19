@@ -1,8 +1,8 @@
 # Pump-it-Up-Data-Mining-the-Water-Table
 Goal- Predicting which water pumps are faulty to promote access to clean, potable water across Tanzania in the dataset
 
-amount_tsh - Total static head (amount water available to waterpoint)
-date_recorded - The date the row was entered
+1) amount_tsh - Total static head (amount water available to waterpoint)
+2) date_recorded - The date the row was entered
 funder - Who funded the well
 gps_height - Altitude of the well
 installer - Organization that installed the well
