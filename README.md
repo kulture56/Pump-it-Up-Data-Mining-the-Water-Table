@@ -1,6 +1,8 @@
 # Pump-it-Up-Data-Mining-the-Water-Table
-Goal- Predicting which water pumps are faulty to promote access to clean, potable water across Tanzania in the dataset
-
+**Goal**
+The primary objective of this project is to predict which water pumps are faulty to promote better access to clean, potable water across Tanzania. The dataset provides information on various factors influencing the functionality of waterpoints, such as the funder, installation date, geographic location, and water quality. Understanding these elements helps prioritize maintenance efforts, ensuring continuous access to clean water in affected areas
+**Dataset Description**
+The dataset contains various features that provide critical insights into the functionality of waterpoints. Here's a summary of key columns:
 1) amount_tsh - Total static head (amount water available to waterpoint)
 2) date_recorded - The date the row was entered
 3) funder - Who funded the well
@@ -41,8 +43,19 @@ Goal- Predicting which water pumps are faulty to promote access to clean, potabl
 39) waterpoint_type - The kind of waterpoint
 40) waterpoint_type_group - The kind of waterpoint
 
-Distribution of Labels
+**Distribution of Labels**
 The labels in this dataset are simple. There are three possible values:
 1) functional - the waterpoint is operational and there are no repairs needed
 2) functional needs repair - the waterpoint is operational, but needs repairs
 3) non functional - the waterpoint is not operational
+
+**Missing Values and Imputation**
+One of the challenges of working with this dataset is handling missing data. Several columns, such as funder, installer, and scheme_name, have missing values, which can significantly impact the analysis and model predictions. To address this, imputation techniques were used:
+
+1) Numerical Variables: Missing values in numerical fields (like amount_tsh or gps_height) were replaced with median values or other 
+   relevant statistics depending on the variable distribution.
+2) Categorical Variables: For missing categorical data (like funder or installer), the mode or a category called "Unknown" was used to 
+   handle missing values effectively.
+
+These imputation strategies ensured that no critical data points were lost during analysis while maintaining the integrity of the dataset for predictive modeling.
+   
