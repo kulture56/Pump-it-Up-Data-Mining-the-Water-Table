@@ -50,6 +50,7 @@ The labels in this dataset are simple. There are three possible values:
 3) non functional - the waterpoint is not operational
 
 **Missing Values and Imputation**
+
 One of the challenges of working with this dataset is handling missing data. Several columns, such as funder, installer, and scheme_name, have missing values, which can significantly impact the analysis and model predictions. To address this, imputation techniques were used:
 
 1) Numerical Variables: Missing values in numerical fields (like amount_tsh or gps_height) were replaced with median values or other 
