@@ -1,6 +1,8 @@
 # Pump-it-Up-Data-Mining-the-Water-Table
 **Goal**
+
 The primary objective of this project is to predict which water pumps are faulty to promote better access to clean, potable water across Tanzania. The dataset provides information on various factors influencing the functionality of waterpoints, such as the funder, installation date, geographic location, and water quality. Understanding these elements helps prioritize maintenance efforts, ensuring continuous access to clean water in affected areas
+
 **Dataset Description**
 The dataset contains various features that provide critical insights into the functionality of waterpoints. Here's a summary of key columns:
 1) amount_tsh - Total static head (amount water available to waterpoint)
