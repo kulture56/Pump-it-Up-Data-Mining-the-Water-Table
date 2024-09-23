@@ -6,6 +6,15 @@
 
 The primary objective of this project is to predict which water pumps are faulty to promote better access to clean, potable water across Tanzania. The dataset provides information on various factors influencing the functionality of waterpoints, such as the funder, installation date, geographic location, and water quality. Understanding these elements helps prioritize maintenance efforts, ensuring continuous access to clean water in affected areas
 
+**How the data was acquired:**
+This project was for a competition on datadriven.org. The website describes itself as:
+
+"DrivenData works on projects at the intersection of data science and social impact, in areas like international development, health, education, research and conservation, and public services."
+
+Companies, non-profits and governments of high paid prizes in order to have data scientist compete in order to figure out real world problems.The data for this project was acquired from the Tanzania Ministry of Water and the Taarifa Platform. The Taarifa Platform is an open source API designed to use citizen feedback on local problems. The competition and the data can be found at the link below:
+
+https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/
+
 **Dataset Description**
 The dataset contains various features that provide critical insights into the functionality of waterpoints. Here's a summary of key columns:
 1) amount_tsh - Total static head (amount water available to waterpoint)
