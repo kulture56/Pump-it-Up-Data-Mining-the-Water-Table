@@ -7,6 +7,7 @@
 The primary objective of this project is to predict which water pumps are faulty to promote better access to clean, potable water across Tanzania. The dataset provides information on various factors influencing the functionality of waterpoints, such as the funder, installation date, geographic location, and water quality. Understanding these elements helps prioritize maintenance efforts, ensuring continuous access to clean water in affected areas
 
 **How the data was acquired:**
+
 This project was for a competition on datadriven.org. The website describes itself as:
 
 "DrivenData works on projects at the intersection of data science and social impact, in areas like international development, health, education, research and conservation, and public services."
