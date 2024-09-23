@@ -17,6 +17,7 @@ Companies, non-profits and governments of high paid prizes in order to have data
 https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/
 
 **Dataset Description**
+
 The dataset contains various features that provide critical insights into the functionality of waterpoints. Here's a summary of key columns:
 1) amount_tsh - Total static head (amount water available to waterpoint)
 2) date_recorded - The date the row was entered
@@ -59,6 +60,7 @@ The dataset contains various features that provide critical insights into the fu
 40) waterpoint_type_group - The kind of waterpoint
 
 **Distribution of Labels**
+
 The labels in this dataset are simple. There are three possible values:
 1) functional - the waterpoint is operational and there are no repairs needed
 2) functional needs repair - the waterpoint is operational, but needs repairs
