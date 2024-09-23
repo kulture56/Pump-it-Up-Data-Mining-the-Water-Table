@@ -1,6 +1,6 @@
 # Pump-it-Up-Data-Mining-the-Water-Table
 ![TanzaniaFlagGifGIF](https://github.com/user-attachments/assets/003d570e-11fd-4dd2-9978-b9731f2741b2)                                     
-![Project Logo]("C:\Users\myloc\OneDrive\Pictures\Screenshots\Pump it up project.png")
+![Project Logo]("C:\Users\myloc\OneDrive\Pictures\Screenshots\Pump it up project.png") 
 
 **Goal**
 
